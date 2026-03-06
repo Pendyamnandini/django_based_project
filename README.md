@@ -23,7 +23,7 @@ pip install -r requirements.txt
 python manage.py runserver
 
 3. Open browser
-http://127.0.0.1:8000/
+everytime when we run the code the link changes
 
 ## Features
 - Predict Heart Disease
