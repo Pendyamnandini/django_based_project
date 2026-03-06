@@ -1,52 +1,32 @@
-# Disease Predictor
+# Django Multi Disease Predictor
 
-A web app for heart disease prediction, diabetes prediction and breast cancer prediciton using Machine Learning based on the Kaggle Datasets. 
+This project is a web application built using Django that predicts multiple diseases using machine learning models.
 
-## Getting Started
+## Diseases Predicted
+- Heart Disease
+- Diabetes
+- Breast Cancer
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+## Technologies Used
+- Python
+- Django
+- Machine Learning
+- HTML
+- CSS
 
-### Installation
+## How to Run the Project
 
-Follow the instructions to run the system on your local machine :
+1. Install required libraries
+pip install -r requirements.txt
 
-First, clone the project and 
-```
-https://github.com/theArjun/disease-predictor.git
-```
-
-Install the virtual environment.
-```
-pip install virtualenv
-```
-Then,
-```
-virtualenv myenv
-```
-After that, activate the virtual environment
-```
-source myenv/bin/activate
-```
-Subsequently, install the dependencies on your local machine.
-```
-pip install -r requirement.txt
-```
-Finally, run the application.
-```
+2. Run the server
 python manage.py runserver
-```
 
-## Built With
+3. Open browser
+http://127.0.0.1:8000/
 
-* [Django](https://www.djangoproject.com/) - The web framework used
-* [PIP](https://pip.pypa.io/en/stable//) - Dependency Management
-
-## Contributing
-
-Please fork this project and send us a pull request.
-
-## Authors
-
-* **Arjun Adhikari**
-
-
+## Features
+- Predict Heart Disease
+- Predict Diabetes
+- Predict Breast Cancer
+- Simple user interface
